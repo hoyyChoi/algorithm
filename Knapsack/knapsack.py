@@ -20,6 +20,7 @@ def pwsort(p,w):   # p배열과 w배열 정렬하는 함수
     for i in range(n):
         divitem= p[i]/w[i]
         div.append(divitem)
+        
     
     for k in range(n):
         element = []
